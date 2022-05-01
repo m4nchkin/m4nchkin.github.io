@@ -1,0 +1,42 @@
+.triangle {
+    width: 300px;
+    font-family: arial;
+    position: relative;
+}
+
+.triangle:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #00bfb6;
+    border-bottom: 10px solid transparent;
+    right: 100%;
+    bottom: -20px;
+    top: -15px;
+    transform: rotate(90deg);
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px 10px 0px 0px;
+}
+
+.item {
+    background-color: green;
+}
+
+.triangle td {
+    margin: 10px;
+    padding: 15px 15px 5px 15px;
+    background: #00bfb6;
+    color: #fff;
+}
+
+.watch {
+    color: grey;
+}
