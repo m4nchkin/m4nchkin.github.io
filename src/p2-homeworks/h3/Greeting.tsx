@@ -15,7 +15,7 @@ type GreetingPropsType = {
 //     {name, setNameCallback, addUser, error, totalUsers} // деструктуризация пропсов
 // )
 function Greeting(props: GreetingPropsType) {
-    const inputClass = s.error // need to fix with (?:)
+    const inputClass = s.error  // need to fix with (?:)
 
     return (
         <div>

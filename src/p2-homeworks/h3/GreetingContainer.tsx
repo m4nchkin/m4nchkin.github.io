@@ -28,6 +28,7 @@ function GreetingContainer(props: GreetingContainerPropsType) {
             setName('')
         } else {
             setError('Name is required!')
+            setName('')
         }
     }
 

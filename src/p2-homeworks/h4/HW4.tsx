@@ -13,7 +13,11 @@ function HW4() {
             alert('введите текст...')
         } else {
             alert(text) // если нет ошибки показать текст
+            setText('')
         }
+    }
+    const textDelete = () => {
+        setText('')
     }
 
     const [checked, setChecked] = useState<boolean>(false)
@@ -45,7 +49,7 @@ function HW4() {
 
                 <SuperButton
                     red // пропсу с булевым значением не обязательно указывать true
-                    onClick={showAlert}
+                    onClick={textDelete}
                 >
                     delete {/*// название кнопки попадёт в children*/}
                 </SuperButton>
