@@ -15,11 +15,11 @@ type GreetingPropsType = {
 //     {name, setNameCallback, addUser, error, totalUsers} // деструктуризация пропсов
 // )
 function Greeting(props: GreetingPropsType) {
-    const inputClass = s.error  // need to fix with (?:)
+    const inputClass = s.error ? 'error' : ''  // need to fix with (?:)
 
     return (
         <div>
-            <input value={props.name} onChange={props.setNameCallback} className={inputClass ? 'error' : ''}/>
+            <input value={props.name} onChange={props.setNameCallback} className={inputClass}/>
             {inputClass && <span className={s.someClass}>
                 {props.error}
             </span>}

@@ -1,3 +1,16 @@
-.someClass {
-
+.buttonOpacity {
+    opacity: 0.5;
+    background-color: burlywood;
+}
+.low{
+    color:blue;
+}
+.middle{
+    color:coral;
+}
+.high{
+    color:red;
+}
+.button{
+    background-color: darkolivegreen;
 }
