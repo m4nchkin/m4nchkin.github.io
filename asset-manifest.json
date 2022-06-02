@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/my-homwork-vic/static/css/main.bdc5bdcd.css",
-    "main.js": "/my-homwork-vic/static/js/main.0f306aba.js",
-    "index.html": "/my-homwork-vic/index.html",
-    "main.bdc5bdcd.css.map": "/my-homwork-vic/static/css/main.bdc5bdcd.css.map",
-    "main.0f306aba.js.map": "/my-homwork-vic/static/js/main.0f306aba.js.map"
+    "main.css": "/static/css/main.bdc5bdcd.css",
+    "main.js": "/static/js/main.a49c02ea.js",
+    "index.html": "/index.html",
+    "main.bdc5bdcd.css.map": "/static/css/main.bdc5bdcd.css.map",
+    "main.a49c02ea.js.map": "/static/js/main.a49c02ea.js.map"
   },
   "entrypoints": [
     "static/css/main.bdc5bdcd.css",
-    "static/js/main.0f306aba.js"
+    "static/js/main.a49c02ea.js"
   ]
 }
