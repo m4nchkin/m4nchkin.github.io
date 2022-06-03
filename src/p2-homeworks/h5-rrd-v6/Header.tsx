@@ -18,15 +18,14 @@ function Header() {
 
 
     const Links = (props: LinksPropsType) => {
-        return <>
-            <h2 className={s.dropdown}><span>LINKS</span></h2>
+        return <div className={s.dropdown}>
+            LINKS
             <div className={s.dropdownContent}>
                 <NavLink to={PATH.PRE_JUNIOR}> pre-junior</NavLink>
                 <NavLink to={PATH.JUNIOR}> junior</NavLink>
                 <NavLink to={PATH.JUNIOR_PLUS}> junior-plus</NavLink>
             </div>
-            {/*{props.collapsed && <Body/>}*/}
-    </>
+    </div>
     }
 
     return (
